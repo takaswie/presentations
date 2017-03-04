@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="524.40942"
+   height="372.04724"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="stack.eps"
+   inkscape:export-filename="/mnt/Presentation/20140619_debian/stack.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="371.63358"
+     inkscape:cy="251.36048"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-page="true"
+     inkscape:window-width="1181"
+     inkscape:window-height="889"
+     inkscape:window-x="776"
+     inkscape:window-y="51"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="0,345"
+       id="guide3931" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-680.31491)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2987"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(58.602539,634.19418)"><flowRegion
+         id="flowRegion2989"><rect
+           id="rect2991"
+           width="480.83261"
+           height="49.497475"
+           x="59.396969"
+           y="269.51675" /></flowRegion><flowPara
+         id="flowPara2993">IEEE1394物理層</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2995"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(55.258789,663.41098)"><flowRegion
+         id="flowRegion2997"><rect
+           id="rect2999"
+           width="214.96046"
+           height="49.497475"
+           x="53.740116"
+           y="215.06953" /></flowRegion><flowPara
+         id="flowPara3001">IEEE 1394リンク層</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3003"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(53.62207,680.17758)"><flowRegion
+         id="flowRegion3005"><rect
+           id="rect3007"
+           width="123.33095"
+           height="46.37468"
+           x="46.669048"
+           y="155.67256" /></flowRegion><flowPara
+         id="flowPara3009">IEEE 1394</flowPara><flowPara
+         id="flowPara3011">バス管理層</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(60.758789,680.89633)"><flowRegion
+         id="flowRegion3015"><rect
+           id="rect3017"
+           width="137.17871"
+           height="45.254833"
+           x="115.25841"
+           y="154.96545" /></flowRegion><flowPara
+         id="flowPara3019">IEEE1394</flowPara><flowPara
+         id="flowPara3021">トランザクション層</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3047"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(45.835937,617.23224)"><flowRegion
+         id="flowRegion3049"><rect
+           id="rect3051"
+           width="189.50462"
+           height="41.719299"
+           x="315.36963"
+           y="271.63809" /></flowRegion><flowPara
+         id="flowPara3053">Ethernet</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3055"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(85.87207,672.75568)"><flowRegion
+         id="flowRegion3057"><rect
+           id="rect3059"
+           width="154.85638"
+           height="40.305088"
+           x="292.74222"
+           y="171.22891" /></flowRegion><flowPara
+         id="flowPara3061">IP</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3063"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(48.279297,677.85236)"><flowRegion
+         id="flowRegion3065"><rect
+           id="rect3067"
+           width="95.459412"
+           height="50.204582"
+           x="292.74222"
+           y="111.12484" /></flowRegion><flowPara
+         id="flowPara3069">TCP</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3071"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(13.571289,677.01056)"><flowRegion
+         id="flowRegion3073"><rect
+           id="rect3075"
+           width="92.630989"
+           height="50.204582"
+           x="402.34375"
+           y="111.83195" /></flowRegion><flowPara
+         id="flowPara3077">UDP</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3079"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:'Takaoゴシック';font-style:normal;font-weight:normal;font-size:12px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Takaoゴシック';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"><flowRegion
+         id="flowRegion3081"><rect
+           id="rect3083"
+           width="101.11627"
+           height="42.426407"
+           x="285.67114"
+           y="58.091831" /></flowRegion><flowPara
+         id="flowPara3085"></flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 290,877.36215 -200,0 0,-45 -39.999998,0 -2e-6,65 240,0 z"
+       id="rect3087"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3858"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(47.991211,697.09943)"><flowRegion
+         id="flowRegion3860"><rect
+           id="rect3862"
+           width="95.459412"
+           height="46.669048"
+           x="289.91379"
+           y="36.878628" /></flowRegion><flowPara
+         id="flowPara3864">HTTP</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3866"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(10.657227,699.22443)"><flowRegion
+         id="flowRegion3868"><rect
+           id="rect3870"
+           width="111.01576"
+           height="56.568542"
+           x="405.17218"
+           y="34.757305" /></flowRegion><flowPara
+         id="flowPara3872">RTP</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3884"
+       width="147.78906"
+       height="44.000061"
+       x="311.21094"
+       y="878.36212" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3886"
+       width="148"
+       height="40.000031"
+       x="311"
+       y="832.36206" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3888"
+       width="75"
+       height="55"
+       x="310"
+       y="772.36212" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3890"
+       width="70"
+       height="55"
+       x="390"
+       y="772.36212" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.99999988;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3892"
+       width="75"
+       height="53.999969"
+       x="310"
+       y="712.36212" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.99999988;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3894"
+       width="70"
+       height="53.999969"
+       x="390"
+       y="712.36212" />
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 165,712.36215 125,0 0,115 -60,0 0,-65 -65,0 z"
+       id="rect3899"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <rect
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3901"
+       width="110"
+       height="50.000031"
+       x="50"
+       y="712.36212" />
+    <rect
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3903"
+       width="174.09367"
+       height="60.000031"
+       x="50"
+       y="767.36212" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3905"
+       width="119.74998"
+       height="39.000057"
+       x="170.25002"
+       y="833.36212" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.99999988;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3907"
+       width="69"
+       height="39.000061"
+       x="95"
+       y="833.36212" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3909"
+       width="240.00002"
+       height="19.588915"
+       x="50.000004"
+       y="902.77325" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3023"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(65.089844,728.57114)"><flowRegion
+         id="flowRegion3025"><rect
+           id="rect3027"
+           width="197.57359"
+           height="31.834091"
+           x="42.426407"
+           y="60.21315" /></flowRegion><flowPara
+         id="flowPara3029">IEC 61883-1</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3031"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(42.636719,706.75864)"><flowRegion
+         id="flowRegion3033"><rect
+           id="rect3035"
+           width="159.80614"
+           height="26.870058"
+           x="28.991379"
+           y="22.029385" /></flowRegion><flowPara
+         id="flowPara3037">IEC 61883-6</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3039"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Takaoゴシック';-inkscape-font-specification:'Takaoゴシック'"
+       transform="translate(146.17383,702.4266)"><flowRegion
+         id="flowRegion3041"><rect
+           id="rect3043"
+           width="184.55487"
+           height="55.861435"
+           x="47.376156"
+           y="26.272026" /></flowRegion><flowPara
+         id="flowPara3045">1394TA仕様群</flowPara></flowRoot>  </g>
+</svg>
