@@ -1,0 +1,19 @@
+pdfs := $(subst .md,.pdf,$(wildcard *.md))
+dots := $(subst .dot,.dot.eps,$(wildcard img/*.dot))
+svgs := $(subst .svg,.svg.eps,$(wildcard img/*.svg))
+
+caches:= $(wildcard img/*.pdf)
+
+%.dot.eps: %.dot
+	dot -Teps -o $@ $<
+
+%.svg.eps: %.svg
+	inkscape --without-gui --export-eps=$@ $<
+
+%.pdf: %.md $(dots) $(svgs)
+	pandoc --latex-engine=lualatex -H ../header.tex -t beamer -o $@ $<
+
+all:	$(pdfs)
+
+clean:
+	$(RM) $(caches) $(dots) $(svgs) $(pdfs)

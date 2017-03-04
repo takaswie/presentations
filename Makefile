@@ -1,15 +1,13 @@
-slides := $(subst .md,.pdf,$(wildcard *.md))
+dirs := $(shell find . -maxdepth 1 -type d ! -path ./.git ! -path .)
 
-.PHONY: all images clean
+.PHONY: all clean $(dirs)
 
-all: images $(slides)
-
-images:
-	$(MAKE) --directory=img
+all:
+	@echo 'Please give one of entries in below list as a target.'
+	@echo $(dirs)
 
 clean:
-	$(RM) $(slides)
-	$(MAKE) --directory=img clean
+	$(foreach i, $(dirs), $(MAKE) --directory=$i clean;)
 
-%.pdf:	%.md
-	pandoc --latex-engine=lualatex -H ./header.tex $< -t beamer -o $@
+$(dirs):
+	$(MAKE) --directory=$@
