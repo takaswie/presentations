@@ -1,5 +1,6 @@
 # Presentations
 
+* 2018/10/21: [2018 Linux Audio miniconference](http://mailman.alsa-project.org/pipermail/alsa-devel/2018-August/139335.html)
 * 2017/10/27: [Prague Audio miniconference](http://mailman.alsa-project.org/pipermail/alsa-devel/2017-October/126724.html)
 * 2017/03/11: [オープンソースカンファレンス2017 Tokyo/Spring](https://www.ospn.jp/osc2017-spring/modules/eguide/event.php?eid=28)
 * 2016/12/17: [Ubuntu 16.10リリース記念オフラインミーティング16.12](https://wiki.ubuntulinux.jp/Events/OfflineTokyo201612)
