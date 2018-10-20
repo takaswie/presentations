@@ -29,7 +29,7 @@ This presentation is available in my github repository.
      * http://mailman.alsa-project.org/pipermail/alsa-devel/2017-November/127359.html
  * A plan to obsolete 'dimen' member in 'struct snd_ctl_elem_info'.
      * https://github.com/takaswie/presentations/blob/master/20171027/contents.md
- * Limitation on a container for value array to an element
+ * Let's mark this as `deprecated` in UAPI header
 
 ## Limitation on a container for value array to an element
 
@@ -45,7 +45,12 @@ This presentation is available in my github repository.
 ## Planned roadmap 1/4
 
  * Refactoring compat layer
-     * Handle different structure layout for x86/32bit/64bit ABI
+     * Handle different structure layout for System V ABI
+         * intel386
+         * the other 32 bit machine
+         * 64 bit machine
+     * System V ABI for intel386 has 4 byte alignment quirk to 8 byte type
+         * Typical 32 bit ABIs use 8 byte alignment.
      * [alsa-devel] [PATCH 00/24] ALSA: ctl: refactoring compat layer
          * http://mailman.alsa-project.org/pipermail/alsa-devel/2017-November/127996.html
      * https://github.com/takaswie/sound/commits/topic/ctl-compat-refactoring
@@ -57,7 +62,7 @@ This presentation is available in my github repository.
          * .rodata section against .text section
          * allocation in kernel stack or kernel logical address space
      * different requestors
-         * by compat layer
+         * by compat layer in kernel space
          * by kernel driver in kernel space
          * by user processes in user space
      * https://github.com/takaswie/sound/commits/topic/ctl-ioctl-refactoring
@@ -69,7 +74,7 @@ This presentation is available in my github repository.
      * use kernel virtual space, instead of kernel logical space
          * currently memdup_user() is used (slab allocator in kernel logical space)
          * page fault is allowed in process context
-     * structure layout
+     * structure layout issue
          * unused tstamp member in tail of the structure, can be obsoleted
          * unused SNDRV_CTL_ELEM_ACCESS_TIMESTAMP flag can be obsoleted
 
@@ -103,12 +108,16 @@ struct snd_ctl_elem_value {
  * ALSA control core has a feature called as `user-defined element set`
  * [RFC][PATCH 0/2] ALSA: control: limit life time of user-defined element set
      * http://mailman.alsa-project.org/pipermail/alsa-devel/2016-September/112525.html
+ * A new access flag might be introduced
+     * SNDRV_CTL_ELEM_ACCESS_OWNER_BOUND?
+     * need to keep logical meaning of SNDRV_CTL_IOCTL_ELEM_LOCK/UNLOCK operations
 
 ## Restriction for the number of user-defined control element set per sound card
 
  * As of v4.20, one sound card instance can have 32 sets of control element set
- * This is a bit small to register control element sets for some devices
-     * audio and music units on IEEE 1394 bus for studio purpose
+ * This is a bit small to register control element sets required for some devices
+     * audio and music units on IEEE 1394 bus for studio purpose;
+       e.g. solo/mute/gain/balance for multiplexer inputs to multiplexer outputs up to 32 channels
 
 # Another approach to produce language bindings by GObject Introspection.
 
