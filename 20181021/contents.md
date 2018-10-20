@@ -2,7 +2,15 @@
 % Takashi SAKAMOTO (坂本 貴史)
 % \today
 
-This is written for Audio Mini Summit 2018.
+This is written for Audio Mini Summit 2018. For my convenience, this
+presentation includes two themes.
+
+1. Integrating the ALSA control core
+2. Another approach to produce language bindings by GObject Introspection.
+
+This presentation is available in my github repository.
+
+ * https://github.com/takaswie/presentations/
 
 # Integrating the ALSA control core
 
@@ -87,6 +95,7 @@ struct snd_ctl_elem_value {
          * http://mailman.alsa-project.org/pipermail/alsa-devel/2016-September/112774.html
      * deprecate SND_SOC_BYTES_TLV
  * it's the worst idea to upload binary blob via ALSA control character device
+     * even if it includes initialization data for coefficiencies
      * use hwdep interface for this purpose, anyway
 
 ## User-defined element set left by finished process
