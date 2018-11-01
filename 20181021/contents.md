@@ -2,7 +2,7 @@
 % Takashi SAKAMOTO (坂本 貴史)
 % \today
 
-This is written for Audio Mini Summit 2018. For my convenience, this
+This is written for Audio Mini conference 2018. For my convenience, this
 presentation includes two themes.
 
 1. Integrating the ALSA control core
